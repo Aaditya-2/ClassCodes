@@ -96,4 +96,10 @@ public class List{
         }
         return false;
     }
+    void removeN(int x){//remove particular node
+        if(searchN(x)){//if the element exists
+            if(start.Roll==x) removeB(); //if it is first element
+            //write code here
+        }
+    }
 }
